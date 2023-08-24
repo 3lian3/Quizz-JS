@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizz JS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <h1>Quizz Culture générale. 🕵️</h1>
+
+    <div class="container">
+      <form action="#">
+        <div class="question1">
+          <div>
+          <legend>Quel club de foot a terminé la saison 2022-2023 de Ligue 1 à la seconde place, juste derrière le PSG ?</legend>
+          <br>
+          <input type="radio" id="marseille" name="footLigue1Q1" value="marseille" checked />
+          <label for="marseille">Olympique de Marseille</label>
+        </div>
+        <div>
+          <input type="radio" id="renne" name="footLigue1Q1" value="renne" />
+          <label for="renne">Stade Rennais</label>
+        </div>
+        <div>
+          <input type="radio" id="correct1" name="footLigue1Q1" value="lens" />
+          <label for="lens">RC Lens</label>
+        </div>
+        <div>
+          <input type="radio" id="monaco" name="footLigue1Q1" value="monaco" />
+          <label for="monaco">AS Monaco</label>
+        </div>
+      </div>
+        <div class="question2">
+   <div>
+          <legend>Dans une Ligue 1 2022-2023 disputée jusque dans les dernières journées, à combien de point(s) le RC Lens a échoué du PSG ?</legend>
+          <br>
+          <input type="radio" id="correct2" name="footLigue1Q2" value="1" checked />
+          <label for="1">1</label>
+        </div>
+        <div>
+          <input type="radio" id="2" name="footLigue1Q2" value="2" />
+          <label for="2">2</label>
+        </div>
+        <div>
+          <input type="radio" id="3" name="footLigue1Q2" value="3" />
+          <label for="3">3</label>
+        </div>
+        <div>
+          <input type="radio" id="10" name="footLigue1Q2" value="10" />
+          <label for="10">10</label>
+        </div>
+      </div>
+        <div class="question3">
+          <div>
+          <legend>Combien de titres de Ligue 1 le PSG possède-t-il à l’issue après la saison 2022-2023 ?</legend>
+          <br>
+          <input type="radio" id="9" name="footLigue1Q3" value="9" checked />
+          <label for="9">9</label>
+        </div>
+        <div>
+          <input type="radio" id="10" name="footLigue1Q3" value="10" />
+          <label for="10">10</label>
+        </div>
+        <div>
+          <input type="radio" id="correct3" name="footLigue1Q3" value="11" />
+          <label for="11">11</label>
+        </div>
+        <div>
+          <input type="radio" id="12" name="footLigue1Q3" value="12" />
+          <label for="12">12</label>
+        </div>
+     </div>
+        <div class="question4">
+          <div>
+          <legend>Quel club historique partageait le record du nombre de titres de Ligue 1 avec le PSG avant cette saison 2022-2023 ?</legend>
+          <br>
+          <input type="radio" id="lyonnais" name="footLigue1Q4" value="lyonnais" checked />
+          <label for="lyonnais">Olympique Lyonnais</label>
+        </div>
+        <div>
+          <input type="radio" id="correct4" name="footLigue1Q4" value="stEtienne"/>
+          <label for="stEtienne">AS Saint-Etienne</label>
+        </div>
+        <div>
+          <input type="radio" id="monaco" name="footLigue1Q4" value="monaco" />
+          <label for="monaco">AS Monaco</label>
+        </div>
+        <div>
+          <input type="radio" id="marseille" name="footLigue1Q4" value="marseille" />
+          <label for="marseille">Olympique de Marseille</label>
+        </div>
+        </div>
+        <div class="question5">
+          <div>
+          <legend>Combien d’équipes au total comptait la Ligue 1 de foot 2022-2023 ?</legend>
+          <br>
+          <input type="radio" id="18" name="footLigue1Q5" value="18" checked />
+          <label for="18">18</label>
+        </div>
+        <div>
+          <input type="radio" id="19" name="footLigue1Q5" value="19" />
+          <label for="19">19</label>
+        </div>
+        <div>
+          <input type="radio" id="correct5" name="footLigue1Q5" value="20" />
+          <label for="20">20</label>
+        </div>
+        <div>
+          <input type="radio" id="21" name="footLigue1Q5" value="21" />
+          <label for="21">21</label>
+        </div>
+      </div>
+        <button type="button" onclick="resultat()">VALIDER ✅</button>
+        
+      </form>
+      <br>
+      <div class="tableauScore">
+        <h2>Cliquez sur valider pour voir les résultats</span></h2>
+        <br>
+        <p class="score"></p>
+        <br>
+        <p class="info"></p>
+      </div>
+      
+    </div>    
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>

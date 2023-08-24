@@ -1,0 +1,81 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+  background-color: rgb(201, 221, 228);
+  margin-top: 50px;
+}
+
+h1{
+  font-size: 65px;
+  margin-bottom: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+
+legend{
+  font-size: 25px;
+  font-weight: 700;
+}
+
+label{
+  font-size: 25px;
+}
+
+.container{
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.question1, .question2, .question3, .question4, .question5 {
+    margin: 20px 0 30px 0;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 10px rgb(140, 135, 135);
+    background-color: white;
+  }
+
+form button{
+  background-color: white;
+  margin: auto;
+  display: block;
+  border-radius: 10px;
+  min-width: 200px;
+  padding: 15px;
+  font-size: 25px;
+  box-shadow: 0 5px 5px rgb(140, 135, 135);
+  cursor: pointer;
+}
+form button:hover {
+    background-color: #e8e8e8; 
+  }
+  
+h2{
+  text-align: center;
+  font-size: 40px;
+}
+
+.tableauScore{
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 10px  rgb(140, 135, 135);
+}
+.score{
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.info{
+  font-size: 20px;
+text-align: center;
+}
